@@ -24,11 +24,11 @@
    </head>
 
    <body>
+ <!-- Хедер -->
 <header class="header">
-    <!-- Меню навігації -->
   <div class="container">
     <div class="header-container">
-    <nav class="nav">
+    <nav class="navigation">
     <a href="./index.html" class="logo">Web<span>Studio</span></a>        
         <ul class="nav-item">
             <li><a href="./index.html" class="contact">Studio</a></li>
@@ -39,7 +39,7 @@
       
         <!-- Адреса і телефон -->
     <address class="address"> 
-        <ul>
+        <ul class="address_ul">
           <li><a href="mailto:info@devstudio.com" class="contact_">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111" class="contact_" >+11 (000) 111-11-11</a></li>
         </ul>  
@@ -48,45 +48,47 @@
     </div>
       </header>
       
+      <!-- Перша секція -->
       <main>
    <section class="main">
     <div class="container">
       <div class="main-container">
     <h1 class="main_text">Effective Solutions for Your Business</h1>
+
     <!-- Кнопка -->
       <button class="button">Order Service</button>
    </div>
   </div>
   </section>
  
-  <!-- Ключові блоки інформації -->
+  <!-- Друга секція -->
   <section class="key_messages">
-    <h2 hidden>Content</h2>
+    <h2 class="visually-hidden">Content</h2>
    
     <div class="key_messages_container container">
-    <ul>
-        <li>
+    <ul class="key_messages_ul">
+        <li class="messages_li">
           <h3 class="messages_list">Strategy</h3>
     <p class="messages_list_text">
         Our goal is to identify the business problem to walk away with the perfect and creative solution.
     </p>
   </li>
 
-  <li>
+  <li class="messages_li">
     <h3 class="messages_list">Punctuality</h3>
     <p class="messages_list_text">
       Bring the key message to the brand's audience for the best price within the shortest possible time.
     </p>
 </li>
 
-<li>
+<li class="messages_li">
     <h3 class="messages_list">Diligence</h3>
     <p class="messages_list_text">
         Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
     </p>
     </li>
 
-<li>
+    <li class="messages_li">
     <h3 class="messages_list">Technologies</h3>
     <p class="messages_list_text">
         Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
@@ -96,11 +98,11 @@
   </div>
   </section>
 
-  <!-- Команда -->
+  <!-- Третя секція -->
   <section class="team">
     <div class="container">
     <h2 class="our_team">Our Team</h2>
-    <ul>
+    <ul class="team_ul">
         <li class="photo">
           <img
             src="./images/img.jpg"
@@ -152,81 +154,94 @@
   </div>
   </section>
 
-  <!-- Портфоліо -->
+  <!-- Четверта секція -->
   <section class="portfolio">
-    <div class="portfolio_container container">
+    <div class="container">
     <h2 class="portfolio_name">Our Portfolio</h2>
     <ul>
-    <li>
+    <li class="portfolio_li">
       <img
         src="./images/img4.jpg"
         width="360"
         height="300"
         alt="App"
       />
+      <div class="portfolio_container">
       <h3 class="apps">Banking App</h3>
       <p class="apps_name">App</p>
+      </div>
     </li>
 
-    <li>
+    <div class="portfolio_li">
       <img
       src="./images/img5.jpg"
       width="360"
       height="300"
       alt="Cashless Payment"
     />
+    <div class="portfolio_container">
     <h3 class="apps">Cashless Payment</h3>
     <p class="apps_name">Marketing</p>
+    </div>
     </li>
 
-    <li>
+    <li class="portfolio_li">
       <img
         src="./images/img6.jpg"
         width="360"
         height="300"
         alt="Mediation App"
       />
+      <div class="portfolio_container">
       <h3 class="apps">Meditation App</h3>
       <p class="apps_name">App</p>
+      </div>
     </li>
 
-    <li>
+    <li class="portfolio_li">
       <img
         src="./images/img7.jpg"
         width="360"
         height="300"
         alt="Taxi Service"
       />
+      <div class="portfolio_container">
       <h3 class="apps">Taxi Service</h3>
       <p class="apps_name">Marketing</p>
+      </div>
     </li>
 
-    <li>
+    <li class="portfolio_li">
       <img
         src="./images/img8.jpg"
         width="360"
         height="300"
         alt="Screen Illustrations"
       />
+      <div class="portfolio_container">
       <h3 class="apps">Screen Illustrations</h3>
       <p class="apps_name">Design</p>
+      </div>
     </li>
 
-    <li>
+    <li class="portfolio_li">
       <img
         src="./images/img9.jpg"
         width="360"
         height="300"
         alt="Online Courses"
       />
+      <div class="portfolio_container">
       <h3 class="apps">Online Courses</h3>
       <p class="apps_name">Marketing</p>
+      </div>
     </li>
   </ul>
   </div>
   </section>
 </main>
 
+<!-- Футер -->
 <footer class="footer">
    
 <!-- Логотип -->
