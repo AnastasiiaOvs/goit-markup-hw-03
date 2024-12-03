@@ -20,7 +20,6 @@ html {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
     }
 
 img {
@@ -68,12 +67,15 @@ h3 {
   .header {
     border-bottom: 1px solid var(--color-cornflover);
     justify-content: space-between;
-}
+  }
 
   .header-container {
     display: flex;
     justify-content: space-between;
     aligh-items: center;
+    flex-grow: 1;
+    margin-top: 25px;
+    margin-bottom: 25px;
     }
 
   .navigation {
@@ -109,12 +111,12 @@ h3 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-iris);
-    margin right: 76px;
     text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5)
   }
 
   .logo span {
     color: var(--color-navyblue);
+    margin-right: 76px;
   }
 
 .logo:hover,
@@ -156,8 +158,6 @@ h3 {
 .main-container {
     max-width: 496px;
     margin: 0 auto;
-    padding-top: 188px;  
-    padding-bottom: 188px;
   }
 
   .main_text {
@@ -219,9 +219,10 @@ flex-direction: row;
 }
 
 .key_messages_container {
-    padding: 120px 156px;
     display: flex;
     gap: 24px;
+    padding-left: 156px;
+    padding-right: 156px;
 }
 
 .messages_li {
@@ -272,8 +273,6 @@ flex-direction: row;
 
 .person_div {
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
     padding: 32px 0;
 }
 
@@ -303,6 +302,7 @@ flex-direction: row;
     flex-wrap: wrap; 
     list-style: none;
     row-gap: 48px;
+    gap: 24px;
   }
 
   .portfolio_container {
@@ -345,13 +345,12 @@ a {
     font-size: 16px;
     line-height: 1.5;
     padding: 100px 0;
+    
 }
 
 /* Логотип */
 .footer_logo {
-margin-bottom: 16px;
-display: inline-block; 
-margin-bottom: 16px;
+display: block;
 }
 
 span.studio {
@@ -360,4 +359,5 @@ span.studio {
 
 .final_text {
     color: var(--color-cloud);
+    max-width: 264px;
 }
