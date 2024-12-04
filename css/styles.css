@@ -111,11 +111,11 @@ h3 {
     text-transform: uppercase;
     color: var(--color-iris);
     text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    margin-right: 76px;
   }
 
   .logo span {
     color: var(--color-navyblue);
-    margin-right: 76px;
   }
 
 .logo:hover,
